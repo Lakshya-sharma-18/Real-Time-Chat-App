@@ -1,7 +1,7 @@
-services:
   - type: web
     name: real-time-chat-app
     env: node
+    rootDir: .
     buildCommand: npm run build
     startCommand: npm start
     envVars:
